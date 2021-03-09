@@ -1,55 +1,84 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Students portal</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>StudentPortal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="stu.css">
+  <script src="main.js"></script>
 </head>
-
 <body>
+  <div class="wrapper">
 
-  <h1 align="center"> <b>PICT Students Portal</b></h1>
-
-  <div class="mynav">
-    <nav class="navbar navbar-dark navbar-expand-lg">
-      <a class="navbar-brand nav-link" href="https://pict.edu/"><img src="iamges/pict.jpeg" alt="" class="img"><b>PICT</b></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Placements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Clubs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Domains</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Alumini</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Timetable</a>
-          </li>
-        </ul>
+    <!-- HEADER -->
+    <header>
+      <div class="Logo">
+        <a id="logo" href="#home"><img src="images/logo.png" alt="">PICT Students Portal</a>
+      </div>      
+      <nav class="main-nav">                
+        <a href="#home">Home</a>
+        <a href="#tvShows">Contact</a>
+        <a href="#movies">Placement</a>
+        <a href="#originals">Clubs</a>
+        <a href="#">Domains</a>
+        <a target="_blank" href="https://codepen.io/cb2307/full/NzaOrm">Timetable</a>        
+      </nav>
+      <nav class="sub-nav">
+        <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
+        <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
+        <a href="#">Account</a>        
+      </nav>      
+    </header>
+    <!-- END OF HEADER -->
+    
+    <!-- MAIN CONTAINER -->
+    <section class="main-container" >
+      <div class="location" id="home">
+          <h1 id="home">Upcoming Events</h1>
+          <div class="box">
+            <a href=""><img src="images/originalpitch.jpeg" alt=""></a>
+            <a href=""><img src="images/credenz.jpeg" alt=""></a>
+                        <a href=""><img src="images/originalpitch.jpeg" alt=""></a>
+            <a href=""><img src="images/credenz.jpeg" alt=""></a>
+                        <a href=""><img src="images/originalpitch.jpeg" alt=""></a>
+            <a href=""><img src="images/credenz.jpeg" alt=""></a>      
+          </div>
       </div>
-    </nav>
+      
+
+      <h1 id="myList">College Notice</h1>
+      <div class="box">
+        <a href=""><img src="images/pulzion.jpeg" alt=""></a>
+        <a href=""><img src="images/pulzion.jpeg" alt=""></a>
+        <a href=""><img src="images/pulzion.jpeg" alt=""></a>
+        <a href=""><img src="images/pulzion.jpeg" alt=""></a>
+        <a href=""><img src="images/pulzion.jpeg" alt=""></a>
+        <a href=""><img src="images/pulzion.jpeg" alt=""></a>
+                          
+      </div>
+      
+      <h1 id="tvShows">Clubs</h1>
+      <div class="box">
+        <a href=""><img src="images/stock.jpeg" alt=""></a>
+        <a href=""><img src="images/stock.jpeg" alt=""></a>
+        <a href=""><img src="images/stock.jpeg" alt=""></a>
+        <a href=""><img src="images/stock.jpeg" alt=""></a>
+        <a href=""><img src="images/stock.jpeg" alt=""></a>
+        <a href=""><img src="images/stock.jpeg" alt=""></a>
+
+        <a href=""><img src="images/codechef.jpeg" alt=""></a>   
+        <a href=""><img src="images/codechef.jpeg" alt=""></a>
+        <a href=""><img src="images/codechef.jpeg" alt=""></a>
+        <a href=""><img src="images/codechef.jpeg" alt=""></a>           
+        <a href=""><img src="images/codechef.jpeg" alt=""></a>
+        <a href=""><img src="images/codechef.jpeg" alt=""></a>
+        
+      </div>
+      
+     
+    <!-- END OF MAIN CONTAINER -->
+
   </div>
-
-
-
 </body>
-
 </html>
